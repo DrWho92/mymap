@@ -1,4 +1,11 @@
 { "compressionlevel":-1,
+ "editorsettings":
+    {
+     "export":
+        {
+         "target":"."
+        }
+    },
  "height":7,
  "infinite":false,
  "layers":[
@@ -75,6 +82,30 @@
          "y":0
         }, 
         {
+         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 108, 108, 0, 108, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2684354663, 2684354657, 0, 0, 0, 0, 0, 0, 0, 0, 2684354664, 2684354658, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+         "height":7,
+         "id":7,
+         "name":"objects",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":10,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[0, 0, 124, 0, 0, 0, 0, 0, 0, 0, 0, 0, 128, 0, 0, 3221225609, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+         "height":7,
+         "id":8,
+         "name":"objects_overlap",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":10,
+         "x":0,
+         "y":0
+        }, 
+        {
          "draworder":"topdown",
          "id":2,
          "name":"floorLayer",
@@ -85,7 +116,7 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":7,
+ "nextlayerid":9,
  "nextobjectid":1,
  "orientation":"orthogonal",
  "renderorder":"right-down",
@@ -203,6 +234,55 @@
                          "value":true
                         }]
                 }],
+         "tilewidth":32
+        }, 
+        {
+         "columns":6,
+         "firstgid":65,
+         "image":"tiles\/kati_tiles\/instagram_tiles.png",
+         "imageheight":224,
+         "imagewidth":192,
+         "margin":0,
+         "name":"instagram_tiles",
+         "spacing":0,
+         "tilecount":42,
+         "tileheight":32,
+         "tilewidth":32
+        }, 
+        {
+         "columns":4,
+         "firstgid":107,
+         "image":"tiles\/kati_tiles\/bauwagen_furniture.png",
+         "imageheight":128,
+         "imagewidth":128,
+         "margin":0,
+         "name":"bauwagen_furniture",
+         "spacing":0,
+         "tilecount":16,
+         "tileheight":32,
+         "tiles":[
+                {
+                 "id":1,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }],
+         "tilewidth":32
+        }, 
+        {
+         "columns":4,
+         "firstgid":123,
+         "image":"tiles\/kati_tiles\/bauwagen_deko_set.png",
+         "imageheight":192,
+         "imagewidth":128,
+         "margin":0,
+         "name":"bauwagen_deko_set",
+         "spacing":0,
+         "tilecount":24,
+         "tileheight":32,
          "tilewidth":32
         }],
  "tilewidth":32,
